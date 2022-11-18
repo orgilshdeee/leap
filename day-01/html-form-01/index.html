@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      Welcome to the 24x7 Fitness Club : Courts Reservation Page!!
+    </header>
+
+    <section>
+      <form
+        action="target"
+        method="GET/POST"
+        name="myfirstform"
+        enctype="multipart/form-data"
+      >
+        <fieldset>
+          <legend>Member Demographics</legend>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            pattern="[A-Z][a-z]+\s[A-Z][a-z]+"
+            required
+          />
+          <p>Are you a Member?</p>
+          <input type="radio" name="membership" value="member" checked />Member
+          <input type="radio" name="membership" value="non-member" />Non-member
+          <br /><br />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" /><br /><br />
+        </fieldset>
+        <label for="facility">Facility</label>
+        <select name="facility">
+          <option value="badminton">Badminton</option>
+          <option value="squash">Squash</option>
+          <option value="racquetball">Racquetball</option>
+        </select>
+        <p>Select a reservation date and time:</p>
+        <input type="date" name="resDate" required />
+        <input type="time" name="resTime" required /><br /><br />
+        <input type="checkbox" name="tnc" id="tnc" required />
+        <label for="tnc"> I agree to the club’s reservation policy</label
+        ><br /><br />
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+  </body>
+</html>

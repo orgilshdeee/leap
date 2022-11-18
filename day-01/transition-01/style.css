@@ -1,0 +1,25 @@
+.one {
+    width: 100px;
+    height: 100px;
+    background: blue;
+	transition: 1.5s;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background: green;
+	transition: 1.5s;
+}
+
+.one:active  {
+    width: 1000px;
+	background-color: orange;
+	transition: 1.5s ease;
+}
+
+.two:active  {
+    width: 1000px;
+	background-color: purple;
+	transition: 1.5s ease;
+}

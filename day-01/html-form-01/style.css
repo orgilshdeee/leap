@@ -1,0 +1,21 @@
+header
+{
+  text-align: center;
+  margin: 0px auto;
+  background: #D61F57;
+  color: white;
+  padding: 0.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+section
+{
+  background: #EFF5FB;
+  text-align:center;
+  padding: 10px;
+  border: dashed 2px maroon;
+  margin: 0px auto;
+  width: 30%;
+}
