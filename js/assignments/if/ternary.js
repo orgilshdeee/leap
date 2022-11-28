@@ -29,3 +29,29 @@
 //     default:
 //         console.log("Not a valid day")
 // }
+
+// var str = "hello nigga";
+
+// const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// const lower = "abcdefghijklmnopqrstuvwxyz"
+// let result = "";
+
+// for(i = 0; i<str.length; i++){
+//     if(upper.includes(str.charAt(i))){
+//         result += str.charAt(i).toLowerCase()
+//     }else if(lower.includes(str.charAt(i))){
+//         result += str.charAt(i).toUpperCase();
+//     }else {
+//         result += str.charAt(i)
+//     }
+// }
+
+// console.log(result)
+
+// const arr1 = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
+
+// arr1.sort((a, b)=>  a-b )
+// console.log(arr1)
+// console.log(arr1[0])
+
+console.log("Javascript is the best language 💩")
