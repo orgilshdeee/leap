@@ -54,4 +54,19 @@
 // console.log(arr1)
 // console.log(arr1[0])
 
-console.log("Javascript is the best language 💩")
+console.log("Javascript is the best language 🤡")
+
+
+
+
+var pi = Math.PI;       // 3.141592653589793
+Math.round(4.4);        // = 4
+Math.round(4.5);        // = 5
+Math.pow(2,8);          // = 256 = 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2
+Math.sqrt(49);          // = 7 = square root 
+Math.abs(-3.14);        // = 3.14 - absolute, positive value
+Math.ceil(3.14);        // = 4 - rounded up
+Math.floor(3.99);       // = 3 - rounded down
+Math.min(0, 3, -2, 2);  // = -2 - the lowest value
+Math.max(0, 3, -2, 2);  // = 3 - the highest value
+Math.random();          // random number between 0 and 1
