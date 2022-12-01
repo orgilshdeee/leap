@@ -15,9 +15,6 @@
 
 const arr = [43, 56, 23, 89, 88, 90, 99, 652];
 
-// For regular arrays:
-// var max = Math.max(...arrayOfNumbers);
-
 // For arrays with tens of thousands of items:
 let max = 0;
 for (let i = 1; i < arr.length; ++i) {
