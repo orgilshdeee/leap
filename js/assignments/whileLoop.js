@@ -32,31 +32,6 @@
 // }
 // console.log(total);
 
-let number = 15;
-let result = true;
-
-if (number == 0) {
-  console.log("number is 0");
-} else if (number == 1) {
-  console.log("number is 1");
-} else if (number == 2) {
-  console.log("number is 2");
-} else if (number > 1) {
-  let i = 2;
-  while (i < number) {
-    if (number % i == 0) {
-      result = false;
-      break;
-    }
-    i++;
-  }
-  if (result) {
-    console.log(`${number} is a prime number`);
-  } else {
-    console.log(`${number} is not a prime number`);
-  }
-}
-
 //fibonacchi n-th number
 // const n = 8;
 
@@ -73,3 +48,85 @@ if (number == 0) {
 // }
 
 // console.log(c);
+
+// let number = 997;
+// let result = true;
+
+// if (number == 0) {
+//   console.log("number is 0");
+// } else if (number == 1) {
+//   console.log("number is 1");
+// } else if (number == 2) {
+//   console.log("number is 2");
+// } else if (number > 1) {
+//   let i = 2;
+//   while (i < number) {
+//     if (number % i == 0) {
+//       result = false;
+//       break;
+//     }
+//     i++;
+//   }
+//   if (result) {
+//     console.log(`${number} is a prime number`);
+//   } else {
+//     console.log(`${number} is not a prime number`);
+//   }
+// }
+
+// var num = 5;
+// var result = 1;
+
+// while (num > 1) {
+//   if (num == 0 || num == 1) {
+//     result = 1;
+//   } else {
+//     result = result * num;
+//     num--;
+//   }
+// }
+
+// console.log(result);
+
+// const num = 10;
+// let i = 1;
+// let sumEven = 0;
+// let sumOdd = 0;
+// while (i <= 10) {
+//   if (i % 2 == 0) {
+//     sumEven += i;
+//   } else {
+//     sumOdd += i;
+//   }
+//   i++;
+// }
+// console.log(sumEven);
+// console.log(sumOdd);
+
+// const num = 10;
+// let i = 0;
+// let total = 0;
+
+// while (i <= num) {
+//   total = total + i;
+//   i++;
+// }
+// console.log(total);
+
+//plandromic number
+
+// const test = "3211221123";
+// const testt = "21012";
+// let result = true;
+// const len = test.length;
+
+// let i = 0;
+// while (i < len) {
+//   console.log(len - 1 - i);
+//   if (test[i] !== test[len - 1 - i]) {
+//     result = false;
+//   }
+//   i++;
+// }
+
+// console.log(result);
