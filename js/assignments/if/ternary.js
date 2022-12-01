@@ -42,7 +42,7 @@
 // Math.round(4.4);        // = 4
 // Math.round(4.5);        // = 5
 // Math.pow(2,8);          // = 256 = 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2
-// Math.sqrt(49);          // = 7 = square root 
+// Math.sqrt(49);          // = 7 = square root
 // Math.abs(-3.14);        // = 3.14 - absolute, positive value
 // Math.ceil(3.14);        // = 4 - rounded up
 // Math.floor(3.99);       // = 3 - rounded down
@@ -53,7 +53,6 @@
 
 // console.log("Hello I am \"Name Here\".\nI am \'Age here\' years old.\n\t This is the new line with tab and some \\backslashes\\")
 
-
 // for(i = 0; i <= 30; i++){
 //     const min = 5;
 //     const max = 15;
@@ -62,12 +61,19 @@
 
 // console.log(Math.floor(Math.random()* 6) + 1)
 // console.log(5 +  Math.floor(Math.random()*(15-5 +1)))
-a = 5;
-b = 10;
+// a = 5;
+// b = 10;
 
-for(i = 0; i< 30; i++){
-    console.log(Math.floor(Math.random() * (Math.abs(a-b) + 1)) + Math.min(a,b))
-}
+// for (i = 0; i < 30; i++) {
+//   console.log(
+//     Math.floor(Math.random() * (Math.abs(a - b) + 1)) + Math.min(a, b)
+//   );
+// }
+
+const age = prompt("Enter your age");
+
+console.log(age);
+
 // for(i = 0; i <= 30; i++){
 //     maxNum = 10;
 //     minNum = 5;
