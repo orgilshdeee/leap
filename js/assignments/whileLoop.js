@@ -49,30 +49,30 @@
 
 // console.log(c);
 
-// let number = 997;
-// let result = true;
+let number = 997;
+let result = true;
 
-// if (number == 0) {
-//   console.log("number is 0");
-// } else if (number == 1) {
-//   console.log("number is 1");
-// } else if (number == 2) {
-//   console.log("number is 2");
-// } else if (number > 1) {
-//   let i = 2;
-//   while (i < number) {
-//     if (number % i == 0) {
-//       result = false;
-//       break;
-//     }
-//     i++;
-//   }
-//   if (result) {
-//     console.log(`${number} is a prime number`);
-//   } else {
-//     console.log(`${number} is not a prime number`);
-//   }
-// }
+if (number == 0) {
+  console.log("number is 0");
+} else if (number == 1) {
+  console.log("number is 1");
+} else if (number == 2) {
+  console.log("number is 2");
+} else if (number > 1) {
+  let i = 2;
+  while (i < number) {
+    if (number % i == 0) {
+      result = false;
+      break;
+    }
+    i++;
+  }
+  if (result) {
+    console.log(`${number} is a prime number`);
+  } else {
+    console.log(`${number} is not a prime number`);
+  }
+}
 
 // var num = 5;
 // var result = 1;

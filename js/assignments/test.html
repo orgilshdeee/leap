@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const secret = Math.floor(Math.random() * 100 + 1);
+
+      let n = Number(prompt("Toog taagarai"));
+
+      while (n != secret) {
+        if (n < secret) alert("Tanai oruuulsan too bagadaj baina");
+        else alert("Tanii oruulsan too ihdej baina");
+        n = Number(prompt("Dahin oroldono uu!"));
+      }
+      alert("bayr Hurgey");
+    </script>
+  </body>
+</html>
