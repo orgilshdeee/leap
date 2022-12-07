@@ -16,15 +16,15 @@
 
 // console.log(result)
 
-const test = 10;
+// const test = 10;
 
-let result = 0;
+// let result = 0;
 
-for (i = 1; i <= test; i++) {
-  result += i;
-}
+// for (i = 1; i <= test; i++) {
+//   result += i;
+// }
 
-console.log(result);
+// console.log(result);
 
 // for (i = 0; i < 7; i++){
 //     let pyramid = "";
