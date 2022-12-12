@@ -56,3 +56,13 @@
 // for (i = 0; i < animals.length; i++) {
 //   makeSound(animals[i].type, animals[i].sound);
 // }
+
+const person = {
+  firstname: "Наранбаяр",
+  lastname: "Эрдэнэ",
+  printFullname: function () {
+    console.log(this.firstname + " " + this.lastname);
+  },
+};
+
+person.printFullname();
