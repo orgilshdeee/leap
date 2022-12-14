@@ -37,5 +37,3 @@ document.querySelector("#reset").addEventListener("click", () => {
   document.getElementById("seconds").innerHTML = second;
   document.getElementById("minutes").innerHTML = minutes;
 });
-
-function startInvertal() {}
