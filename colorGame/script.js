@@ -60,3 +60,20 @@ function startGame() {
 }
 
 startGame();
+
+{
+  /* <div className="w-[15vw] bg-[#242526] p-2 border border-r-0 border-[#AFB2B7] overflow-y-auto">
+      <div className="text-white text-xs flex justify-between"></div> */
+}
+
+//   <div>
+//   <div className="text-white p-2 hover:bg-[#252F3C] cursor-pointer rounded-md flex">
+//     <div>
+//       <div className="mr-3 py-2 px-4 rounded-3xl bg-[#00d5ff]">{user.dummyName[0]}</div>
+//     </div>
+//     <div>
+//       <div className="text-sm">{user.dummyName}</div>
+//       {user?.message?.read ? <div className="text-[#CCD2DB] text-xs">{user.message.lastMessage}</div> : <div className="text-[#2E89FF] text-xs">{user.message.lastMessage}</div>}
+//     </div>
+//   </div>
+// </div>
